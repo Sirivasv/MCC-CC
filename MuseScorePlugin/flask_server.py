@@ -24,12 +24,31 @@ wcoco = WrappedCoconet(
 @app.route('/', methods=['GET','POST'])
 def upload_file():
     sheet = music21.converter.parseData(request.form["fileContent"], format="musicxml")
+
+    if (request.form["ntracks"] == "16"):
+      print("Multivoice File")
+      # We require to strip out the soprano voice
+      for part in sheet.parts:
+        print(part.partName)
+      for i in range(1, len(sheet.parts)):
+        sheet.remove(sheet.parts[1])
+      for part in sheet.parts:
+        print(part.partName)
+    
+    # We save the file to be harmonized
     sheet.write('midi', "tempMIDIFROMFLSK.mid")
 
+    # We get the file with the harmonization
     final_harmonization_path = wcoco.run_sampling()
 
-    cmid = music21.converter.parse(final_harmonization_path, format='midi')
-    GEX = music21.musicxml.m21ToXml.GeneralObjectExporter(cmid)
+    # We read the harmonization
+    sheet = music21.converter.parse(final_harmonization_path, format='midi')
+    sheet.insert(0, metadata.Metadata())
+    sheet.metadata.title = request.form["sheet_title"]
+    sheet.metadata.composer = request.form["sheet_composer"] + " & COCONET"
+    
+    # the response is the string file content
+    GEX = music21.musicxml.m21ToXml.GeneralObjectExporter(sheet)
     out = GEX.parse()  # out is bytes
     outStr = out.decode('utf-8')
 

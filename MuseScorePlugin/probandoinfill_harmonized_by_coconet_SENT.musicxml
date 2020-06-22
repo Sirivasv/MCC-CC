@@ -179,10 +179,9 @@
         </note>
       </measure>
     <measure number="3" width="256.50">
-      <note default-x="10.00" default-y="0.00">
+      <note default-x="10.00" default-y="-5.00">
         <pitch>
-          <step>F</step>
-          <alter>1</alter>
+          <step>E</step>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
