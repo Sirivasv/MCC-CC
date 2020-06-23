@@ -8,7 +8,7 @@
   <identification>
     <creator type="composer">saulrivas &amp; COCONET</creator>
     <encoding>
-      <encoding-date>2020-06-22</encoding-date>
+      <encoding-date>2020-06-23</encoding-date>
       <software>music21 v.5.7.2</software>
     </encoding>
   </identification>
@@ -19,57 +19,57 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pa745bf21af1cabaa4925101765405f73">
+    <score-part id="P0c48e34d5dcd7a01ab9a63aaefc268bd">
       <part-name>Oboe</part-name>
       <part-abbreviation>Ob</part-abbreviation>
-      <score-instrument id="Ic9c4891227509a46a936479c4a699622">
+      <score-instrument id="Ib0ec55541fb00014e0edd9886f3963ee">
         <instrument-name>Oboe</instrument-name>
         <instrument-abbreviation>Ob</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ic9c4891227509a46a936479c4a699622">
+      <midi-instrument id="Ib0ec55541fb00014e0edd9886f3963ee">
         <midi-channel>1</midi-channel>
         <midi-program>69</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="Pfa270212d6bfd14360334af30d53ea95">
+    <score-part id="P1f972c1275a028518a45d8506fbdc030">
       <part-name>English Horn</part-name>
       <part-abbreviation>Eng Hn</part-abbreviation>
-      <score-instrument id="I892e010029ca5b4ea3cea1b89e333f21">
+      <score-instrument id="I45ee62f071909ed703bd8f30839ed85d">
         <instrument-name>English Horn</instrument-name>
         <instrument-abbreviation>Eng Hn</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I892e010029ca5b4ea3cea1b89e333f21">
+      <midi-instrument id="I45ee62f071909ed703bd8f30839ed85d">
         <midi-channel>2</midi-channel>
         <midi-program>70</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="P30a63eb2d9a628d0a3c3f5f187b67a3f">
+    <score-part id="P81a77bb51fd4450f221307ec94d94d16">
       <part-name>Clarinet</part-name>
       <part-abbreviation>Cl</part-abbreviation>
-      <score-instrument id="I191f0c8819d09569bb513d81e0986631">
+      <score-instrument id="Id2723eeca59a6af058ec2566f6c9fde3">
         <instrument-name>Clarinet</instrument-name>
         <instrument-abbreviation>Cl</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I191f0c8819d09569bb513d81e0986631">
+      <midi-instrument id="Id2723eeca59a6af058ec2566f6c9fde3">
         <midi-channel>3</midi-channel>
         <midi-program>72</midi-program>
       </midi-instrument>
     </score-part>
-    <score-part id="Pa02d85c946b6fda71cd51759da328b40">
+    <score-part id="Pb31d3d671703c92f27ea5cf95dd3a0af">
       <part-name>Bassoon</part-name>
       <part-abbreviation>Bs</part-abbreviation>
-      <score-instrument id="I4df0a2a7fa82694a86de09a467d1bd01">
+      <score-instrument id="Ic2be20f1942e69ca6b44e0de58e6634a">
         <instrument-name>Bassoon</instrument-name>
         <instrument-abbreviation>Bs</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I4df0a2a7fa82694a86de09a467d1bd01">
+      <midi-instrument id="Ic2be20f1942e69ca6b44e0de58e6634a">
         <midi-channel>4</midi-channel>
         <midi-program>71</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   <!--=========================== Part 1 ===========================-->
-  <part id="Pa745bf21af1cabaa4925101765405f73">
+  <part id="P0c48e34d5dcd7a01ab9a63aaefc268bd">
     <!--========================= Measure 1 ==========================-->
     <measure number="1">
       <attributes>
@@ -94,6 +94,14 @@
       </direction>
       <note dynamics="111.11">
         <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note dynamics="111.11">
+        <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
@@ -102,16 +110,8 @@
       </note>
       <note dynamics="111.11">
         <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
           <step>D</step>
-          <octave>4</octave>
+          <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -120,7 +120,7 @@
         <pitch>
           <step>F</step>
           <alter>1</alter>
-          <octave>4</octave>
+          <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
@@ -131,103 +131,27 @@
     <measure number="2">
       <note dynamics="111.11">
         <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note dynamics="111.11">
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note dynamics="111.11">
+        <pitch>
           <step>D</step>
           <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>sharp</accidental>
-      </note>
-    </measure>
-    <!--========================= Measure 3 ==========================-->
-    <measure number="3">
-      <note dynamics="111.11">
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>A</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>E</step>
-          <alter>-1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>flat</accidental>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>A</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-    </measure>
-    <!--========================= Measure 4 ==========================-->
-    <measure number="4">
-      <note dynamics="111.11">
-        <pitch>
-          <step>F</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>E</step>
-          <alter>-1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>flat</accidental>
       </note>
       <note dynamics="111.11">
         <pitch>
@@ -243,7 +167,7 @@
     </measure>
   </part>
   <!--=========================== Part 2 ===========================-->
-  <part id="Pfa270212d6bfd14360334af30d53ea95">
+  <part id="P1f972c1275a028518a45d8506fbdc030">
     <!--========================= Measure 1 ==========================-->
     <measure number="1">
       <attributes>
@@ -263,108 +187,55 @@
       </attributes>
       <note dynamics="111.11">
         <pitch>
-          <step>C</step>
-          <alter>1</alter>
+          <step>F</step>
           <octave>4</octave>
         </pitch>
-        <duration>20160</duration>
-        <type>half</type>
-        <accidental>sharp</accidental>
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note dynamics="111.11">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
       </note>
       <note dynamics="111.11">
         <pitch>
           <step>D</step>
           <octave>4</octave>
         </pitch>
-        <duration>20160</duration>
-        <type>half</type>
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note dynamics="111.11">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
       </note>
     </measure>
     <!--========================= Measure 2 ==========================-->
     <measure number="2">
       <note dynamics="111.11">
         <pitch>
-          <step>F</step>
-          <alter>1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>20160</duration>
-        <type>half</type>
-        <accidental>sharp</accidental>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>20160</duration>
-        <tie type="start" />
-        <type>half</type>
-        <notations>
-          <tied type="start" />
-        </notations>
-      </note>
-    </measure>
-    <!--========================= Measure 3 ==========================-->
-    <measure number="3">
-      <note dynamics="111.11">
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>20160</duration>
-        <tie type="stop" />
-        <type>half</type>
-        <notations>
-          <tied type="stop" />
-        </notations>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
-        <accidental>flat</accidental>
       </note>
-    </measure>
-    <!--========================= Measure 4 ==========================-->
-    <measure number="4">
       <note dynamics="111.11">
         <pitch>
           <step>A</step>
           <octave>4</octave>
         </pitch>
-        <duration>20160</duration>
+        <duration>30240</duration>
         <type>half</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>flat</accidental>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
+        <dot />
       </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>
@@ -372,7 +243,7 @@
     </measure>
   </part>
   <!--=========================== Part 3 ===========================-->
-  <part id="P30a63eb2d9a628d0a3c3f5f187b67a3f">
+  <part id="P81a77bb51fd4450f221307ec94d94d16">
     <!--========================= Measure 1 ==========================-->
     <measure number="1">
       <attributes>
@@ -392,11 +263,15 @@
       </attributes>
       <note dynamics="111.11">
         <pitch>
-          <step>A</step>
-          <octave>3</octave>
+          <step>D</step>
+          <octave>4</octave>
         </pitch>
         <duration>40320</duration>
+        <tie type="start" />
         <type>whole</type>
+        <notations>
+          <tied type="start" />
+        </notations>
       </note>
     </measure>
     <!--========================= Measure 2 ==========================-->
@@ -406,51 +281,22 @@
           <step>D</step>
           <octave>4</octave>
         </pitch>
-        <duration>40320</duration>
-        <type>whole</type>
+        <duration>10080</duration>
+        <tie type="stop" />
+        <type>quarter</type>
+        <notations>
+          <tied type="stop" />
+        </notations>
       </note>
-    </measure>
-    <!--========================= Measure 3 ==========================-->
-    <measure number="3">
       <note dynamics="111.11">
         <pitch>
           <step>C</step>
+          <alter>1</alter>
           <octave>4</octave>
         </pitch>
-        <duration>30240</duration>
-        <type>half</type>
-        <dot />
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-        </pitch>
         <duration>10080</duration>
         <type>quarter</type>
-        <accidental>flat</accidental>
-      </note>
-    </measure>
-    <!--========================= Measure 4 ==========================-->
-    <measure number="4">
-      <note dynamics="111.11">
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>flat</accidental>
+        <accidental>sharp</accidental>
       </note>
       <note dynamics="111.11">
         <pitch>
@@ -466,7 +312,7 @@
     </measure>
   </part>
   <!--=========================== Part 4 ===========================-->
-  <part id="Pa02d85c946b6fda71cd51759da328b40">
+  <part id="Pb31d3d671703c92f27ea5cf95dd3a0af">
     <!--========================= Measure 1 ==========================-->
     <measure number="1">
       <attributes>
@@ -482,118 +328,54 @@
       </attributes>
       <note dynamics="111.11">
         <pitch>
-          <step>A</step>
-          <octave>2</octave>
-        </pitch>
-        <duration>20160</duration>
-        <type>half</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
           <step>D</step>
           <octave>3</octave>
         </pitch>
-        <duration>20160</duration>
-        <tie type="start" />
-        <type>half</type>
-        <notations>
-          <tied type="start" />
-        </notations>
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note dynamics="111.11">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note dynamics="111.11">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note dynamics="111.11">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
       </note>
     </measure>
     <!--========================= Measure 2 ==========================-->
     <measure number="2">
       <note dynamics="111.11">
         <pitch>
-          <step>D</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>20160</duration>
-        <tie type="stop" />
-        <type>half</type>
-        <notations>
-          <tied type="stop" />
-        </notations>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>B</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>20160</duration>
-        <type>half</type>
-      </note>
-    </measure>
-    <!--========================= Measure 3 ==========================-->
-    <measure number="3">
-      <note dynamics="111.11">
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>flat</accidental>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
           <step>A</step>
           <octave>3</octave>
         </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-    </measure>
-    <!--========================= Measure 4 ==========================-->
-    <measure number="4">
-      <note dynamics="111.11">
-        <pitch>
-          <step>F</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-      </note>
-      <note dynamics="111.11">
-        <pitch>
-          <step>F</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
+        <duration>20160</duration>
+        <type>half</type>
       </note>
       <note dynamics="111.11">
         <pitch>
           <step>D</step>
           <octave>3</octave>
         </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
+        <duration>20160</duration>
+        <type>half</type>
       </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>

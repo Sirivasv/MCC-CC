@@ -24,16 +24,6 @@ wcoco = WrappedCoconet(
 @app.route('/', methods=['GET','POST'])
 def upload_file():
     sheet = music21.converter.parseData(request.form["fileContent"], format="musicxml")
-
-    if (request.form["ntracks"] == "16"):
-      print("Multivoice File")
-      # We require to strip out the soprano voice
-      for part in sheet.parts:
-        print(part.partName)
-      for i in range(1, len(sheet.parts)):
-        sheet.remove(sheet.parts[1])
-      for part in sheet.parts:
-        print(part.partName)
     
     # We save the file to be harmonized
     sheet.write('midi', "tempMIDIFROMFLSK.mid")
