@@ -1,0 +1,100 @@
+
+\section{Compositores Secuenciales}
+En esta sección se describen a los sistemas cuyas composiciones se generan tomando en cuenta las notas en las medidas previas de la partitura y solo continúan en medidas posteriores.
+Dentro de esta sección podemos de igual forma podemos discriminar a los sistemas por su entorno de uso, es decir si son utilizados en tiempo real en una improvisación, o en un entorno fuera de linea en donde la composición se esta diseñando para posteriormente ser interpretadas y finalmente en un entorno híbrido donde se combinen rasgos de ambos entornos.
+\subsection{Compositores en la Improvisación}
+Estos compositores fueron diseñados para acompañar a un músico para que en tiempo real improvisen un acto musical colaborativamente. Esta tarea claramente es secuencial y los sistemas que solo sean capaces de realizar dicha tarea serán secuenciales por definición.
+\\
+\pagebreak
+Algunos compositores con sus principales características en esta tarea son:
+\begin{itemize}
+    \item \textbf{Aprendiendo melodías de Jazz con \textit{Producto de expertos}},~\cite{johnson_learning_2017}
+        \begin{itemize}
+            \item Una sola pista.
+            \item 2 modelos utilizando LSTM, implementado en python usando theano.
+            \item implementación adicional en Java para sesiones de improvisación usando ImproVisor.
+            \item Representación de intervalos de notas y acordes como contornos.
+            \item Propia Base de entrenamiento de músicos de Jazz.
+        \end{itemize}
+    \item \textbf{ChordAl},~\cite{hao_chordal_2019}
+        \begin{itemize}
+            \item Una sola pista.
+            \item Modelo Bi-LSTM, implementado en python usando tensorflow.
+            \item Representación MIDI de pianoroll.
+            \item Bases de entrenamiento: Nottingham dataset, McGill-Billboard Chord Annotations y CSV leadsheet database.
+        \end{itemize}
+\end{itemize}
+\subsection{Compositores en la Composición Secuencial fuera de linea}
+Estos compositores fueron diseñados para elaborar de manera secuencial complementos y continuaciones a composiciones hechas por el usuario o de manera original. Algunos compositores con sus principales características en esta tarea son:
+\begin{itemize}
+    \item \textbf{MidiNet},~\cite{yang_midinet_2017}
+        \begin{itemize}
+            \item Multi-Pista.
+            \item Modelo GAN Modificado, implementado en python usando tensorflow.
+            \item Representación MIDI de PianoRoll.
+            \item Base de entrenamiento TheoryTab Dataset.
+        \end{itemize}
+    \item \textbf{Generación de partituras principales usando  \textit{GANs}},~\cite{liu_lead_2018}
+        \begin{itemize}
+            \item Multi-Pista.
+            \item Modelo GAN, implementado en python usando tensorflow.
+            \item Representación MIDI en PianoRoll, ChromaRoll y ChordRoll, estos ultimos dos creados especificamente para este artículo.
+            \item Bases de datos de entrenamiento: Lakh PianoRoll Dataset, TheoryTab dataset y base propia.
+        \end{itemize}
+    \pagebreak
+    \item \textbf{LakhNES},~\cite{donahue_lakhnes_2019}
+        \begin{itemize}
+            \item Multi-Pista.
+            \item Modelo Transformer, implementado en python usando pytorch.
+            \item Representación MIDI de pianoroll.
+            \item Bases de entrenamiento: Lakh Pianoroll dataset y NES MSDB.
+        \end{itemize}
+\end{itemize}
+\subsection{Compositores híbridos en la Improvisación y Composición Secuencial fuera de línea}
+Estos compositores fueron diseñados para elaborar de manera secuencial complementos y continuaciones a composiciones hechas por el usuario o de manera original y además tienen la capacidad de seguir una improvisación en tiempo real del compositor. Algunos compositores con sus principales características en esta tarea son:
+\begin{itemize}
+    \item \textbf{MuseGAN},~\cite{dong_musegan_2017}
+        \begin{itemize}
+            \item Multi-Pista.
+            \item Modelo GAN, implementado en python usando tensorflow.
+            \item Representación MIDI de PianoRoll.
+            \item Base de entrenamiento Lakh MIDI Dataset.
+        \end{itemize}
+\end{itemize}
+\section{Compositores No-Secuenciales}
+En esta sección se describen a los sistemas cuyas composiciones se generan tomando en cuenta un subconjunto de notas no necesariamente adyacentes en una partitura para poder completarla, modificarla o armonizarla. Dentro de esta sección no podemos realizar una clasificación en su uso en una improvisación dado que la improvisación es secuencial a diferencia de la composición que no necesariamente lo es. Otra cualidad que pueden tener estos sistemas es que pueden ser lo suficientemente rápidos para ser utilizados en tiempo real y muestreando de manera secuencial para una improvisación, cosa que no se puede hacer de manera inversa en los compositores secuenciales.
+Algunos compositores con sus principales características en esta tarea son:
+\begin{itemize}
+    \item \textbf{DeepBach},~\cite{hadjeres_deepbach_2017}
+        \begin{itemize}
+            \item Multi-Pista.
+            \item Red de dependencia con Modelos RNN, implementado en python usando tensorflow.
+            \item Capaz de ser utilizado en tiempo real.
+            \item Representación en Tokens derivados de una representación tonal y rítmica.
+            \item Base de entrenamiento de music21.
+        \end{itemize}
+    \item \textbf{Anticipation-RNN},~\cite{hadjeres_anticipation-rnn_2020}
+        \begin{itemize}
+            \item Una sola Pista.
+            \item Modelo de atención usando RNNs, implementado en python usando pytorch.
+            \item Capaz de ser utilizado en tiempo real.
+            \item Representación en Tokens derivados de una representación tonal y rítmica.
+            \item Base de entrenamiento de music21.
+        \end{itemize}
+    \item \textbf{Recorriendo un espacio latente en la composición músical},~\cite{pati_learning_2019}
+        \begin{itemize}
+            \item Una sola Pista pero puede extenderse a Multi-Pista.
+            \item Modelo de espacio latente usando RNNs, implementado en python usando pytorch.
+            \item Capaz de ser utilizado en tiempo real.
+            \item Representación en Tokens derivados de una representación tonal y rítmica.
+            \item Base de entrenamiento de melodías monofónicas al estilo irlandés y escocés.
+        \end{itemize}
+    \item \textbf{El Doodle de Bach},~\cite{huang_bach_2019}
+        \begin{itemize}
+            \item Multi-Pista.
+            \item Modelo CNN, implementado en python usando tensorflow.
+            \item No es capaz de ser utilizado en tiempo real.
+            \item Representación MIDI en PianoRoll.
+            \item Base de entrenamiento de Corales de Bach.
+        \end{itemize}
+\end{itemize}

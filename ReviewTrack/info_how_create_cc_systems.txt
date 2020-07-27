@@ -1,0 +1,61 @@
+Crear una nueva sección en el reporte del proyecto,
+donde describan el sistema que han estado analizando en el curso.
+Dicha sección deberá estar organizada de acuerdo a los 
+componentes de la arquitectura de un agente creativo autónomo.
+
+componentes de la arquitectura de un agente creativo autónomo:
+* representaciones del conocimiento generales y especificos del dominio
+  dan ventura 2017 how to buid a cc DEPENDIENTES DEL DOMINIO
+    - base de datos de conocimiento espeicifa del dominio
+    - forma de representar sus artefactos
+    - medida de la estetica para evaluar sus propias creaciones
+    - Capacidad de externalizar a una sociedad sus artefactos
+    + Utilizar cualquier método de ia o combinación
+    + crear propios modelos computacionales basados en las teorias creativas 
+      o de la psicologia incluyendo métodos como los del primer punto
+
+Agentes creativos autonomos
+ - dan ventura igual
+   + intencionalidad, tener meta u objetivo, (producir artefactos novedos y valiosos en el dominio)
+   9 pasos (no necesariamente en orden y pueden ser iteraciones):
+    - Dominio
+    - Definir 3 representaciones de los artefactos:
+      -  Fenotipo, externo
+      -  Genotipo, interna
+      -  representacion de la base de conocimiento, (feno o geno o ambas)
+    - Definir como crearemos la base de conocimiento del agente k
+          (de dpmde el dataset)
+    - Medida estetica A, valioso y novedos, como se evalua
+      - dado k usara la funcion de aprendizaje para inferir medida de valor
+    - Conceptualización, crear el modelo a partir de k, un modelo C, de aprendizaje
+      - Conceptualizar con HMM para generar, debe facilitar la generación
+    - Generar genotipos de los artefactos
+      - recibe C e inspiraciones o funcion de aleatoriedad S
+    - Evaluar al Genotipo
+      - calidad y novedad, durante y despues de generacion, 
+        de tal forma que se pueda restringir cualidades
+        dentro de la generacion para que genere mejores artefactos, 
+        aunque esto  puede tener implicaciones como no generar 
+        algo extendido en el espacio conceptual
+    - Traducir los genotipos a fenotipos, una cadena de markov a una partitura
+    - Evaluar el fenotipo cualitativamente por parte de los usuarios,
+      - No es lo mismo evaluar la partitura para que cumpla la estructura
+        de la teoria musical a que evaluemos el audio que produce
+        deberia estar en terminos de la novedad y el valor
+ 
+ Algoritmo general para generar
+ - Elegir dominio D
+ - Elegir representacion G para genotipo y fenotipo P
+ - Construir base de conocimiento k
+ - Construimos funcion generadora de artefactos \gamma
+ - Elegir una medida de la estetica A o una funcion para que el sistema aprenda la suya
+ - Elegir una medida de novedad U y una de calidad V, o darle las opciones para que la aprenda,
+   Debe estar en funcion de la medida de estitca, la combinacion lineal de ambas
+   es la funcion de evaluacion de genotipos
+ - Funcion de evaluacion de fenotipos
+ - Conceptualizacion del dataset k
+ - Comienza a generar hasta que sea novedoso y valioso en geno y feno
+ - Devuelve el producto
+ No hacer 2,6,8 y parte del 9 cuando el geno y el feno es el mismo
+
+ 121,133,297,336

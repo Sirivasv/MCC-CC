@@ -1,0 +1,201 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Allan and
+  Williams}{2005}]{allan_harmonising_2005}
+Allan, M., and Williams, C.
+\newblock 2005.
+\newblock Harmonising {Chorales} by {Probabilistic} {Inference}.
+\newblock In Saul, L.~K.; Weiss, Y.; and Bottou, L., eds., {\em Advances in
+  {Neural} {Information} {Processing} {Systems} 17}. MIT Press.
+\newblock  25--32.
+
+\bibitem[\protect\citeauthoryear{Bazin and Hadjeres}{2019}]{bazin_nonoto_2019}
+Bazin, T., and Hadjeres, G.
+\newblock 2019.
+\newblock {NONOTO}: {A} {Model}-agnostic {Web} {Interface} for {Interactive}
+  {Music} {Composition} by {Inpainting}.
+\newblock In {\em {ICCC}}.
+
+\bibitem[\protect\citeauthoryear{Boden}{1991}]{boden_creative_1991}
+Boden, M.~A.
+\newblock 1991.
+\newblock {\em The creative mind: {Myths} \& mechanisms}.
+\newblock The creative mind: {Myths} \& mechanisms. New York, NY, US: Basic
+  Books.
+\newblock Pages: xii, 303.
+
+\bibitem[\protect\citeauthoryear{Cope}{1992}]{cope_computer_1992}
+Cope, D.
+\newblock 1992.
+\newblock Computer {Modeling} of {Musical} {Intelligence} in {EMI}.
+\newblock {\em Computer Music Journal} 16(2):69--83.
+\newblock Publisher: The MIT Press.
+
+\bibitem[\protect\citeauthoryear{Davis \bgroup et al.\egroup
+  }{2015}]{davis_enactive_2015}
+Davis, N.; Hsiao, C.-P.; Popova, Y.; and Magerko, B.
+\newblock 2015.
+\newblock An {Enactive} {Model} of {Creativity} for {Computational}
+  {Collaboration} and {Co}-creation.
+\newblock In Zagalo, N., and Branco, P., eds., {\em Creativity in the {Digital}
+  {Age}}, Springer {Series} on {Cultural} {Computing}. London: Springer.
+\newblock  109--133.
+
+\bibitem[\protect\citeauthoryear{Ebcioglu}{1990}]{ebcioglu_expert_1990}
+Ebcioglu, K.
+\newblock 1990.
+\newblock An expert system for harmonizing chorales in the style of {J}.{S}.
+  {Bach}.
+\newblock {\em The Journal of Logic Programming} 8(1):145--185.
+
+\bibitem[\protect\citeauthoryear{Hadjeres, Pachet, and
+  Nielsen}{2017}]{hadjeres_deepbach_2017}
+Hadjeres, G.; Pachet, F.; and Nielsen, F.
+\newblock 2017.
+\newblock {DeepBach}: a {Steerable} {Model} for {Bach} {Chorales} {Generation}.
+\newblock {\em arXiv:1612.01010 [cs]}.
+\newblock arXiv: 1612.01010.
+
+\bibitem[\protect\citeauthoryear{Hertzmann}{2018}]{hertzmann_can_2018}
+Hertzmann, A.
+\newblock 2018.
+\newblock Can {Computers} {Create} {Art}?
+\newblock {\em arXiv:1801.04486 [cs]}.
+\newblock arXiv: 1801.04486.
+
+\bibitem[\protect\citeauthoryear{Hild, Feulner, and
+  Menzel}{1992}]{hild_harmonet_1992}
+Hild, H.; Feulner, J.; and Menzel, W.
+\newblock 1992.
+\newblock {HARMONET}: {A} {Neural} {Net} for {Harmonizing} {Chorales} in the
+  {Style} of {J}. {S}. {Bach}.
+\newblock In Moody, J.~E.; Hanson, S.~J.; and Lippmann, R.~P., eds., {\em
+  Advances in {Neural} {Information} {Processing} {Systems} 4}.
+  Morgan-Kaufmann.
+\newblock  267--274.
+
+\bibitem[\protect\citeauthoryear{Huang \bgroup et al.\egroup
+  }{2019a}]{huang_counterpoint_2019}
+Huang, C.-Z.~A.; Cooijmans, T.; Roberts, A.; Courville, A.; and Eck, D.
+\newblock 2019a.
+\newblock Counterpoint by {Convolution}.
+\newblock {\em arXiv:1903.07227 [cs, eess, stat]}.
+\newblock arXiv: 1903.07227.
+
+\bibitem[\protect\citeauthoryear{Huang \bgroup et al.\egroup
+  }{2019b}]{huang_bach_2019}
+Huang, C.-Z.~A.; Hawthorne, C.; Roberts, A.; Dinculescu, M.; Wexler, J.; Hong,
+  L.; and Howcroft, J.
+\newblock 2019b.
+\newblock The {Bach} {Doodle}: {Approachable} music composition with machine
+  learning at scale.
+\newblock {\em In ISMIR.}
+
+\bibitem[\protect\citeauthoryear{Liang \bgroup et al.\egroup
+  }{2017}]{liang_automatic_2017}
+Liang, F.; Gotham, M.; Johnson, M.; and Shotton, J.
+\newblock 2017.
+\newblock Automatic {Stylistic} {Composition} of {Bach} {Chorales} with {Deep}
+  {LSTM}.
+\newblock In {\em {ISMIR}}.
+
+\bibitem[\protect\citeauthoryear{Liu}{1994}]{liu_collapsed_1994}
+Liu, J.~S.
+\newblock 1994.
+\newblock The {Collapsed} {Gibbs} {Sampler} in {Bayesian} {Computations} with
+  {Applications} to a {Gene} {Regulation} {Problem}.
+\newblock {\em Journal of the American Statistical Association}
+  89(427):958--966.
+\newblock Publisher: [American Statistical Association, Taylor \& Francis,
+  Ltd.].
+
+\bibitem[\protect\citeauthoryear{Lubart}{2005}]{lubart_how_2005}
+Lubart, T.
+\newblock 2005.
+\newblock How can computers be partners in the creative process:
+  {Classification} and commentary on the {Special} {Issue}.
+\newblock {\em International Journal of Human-Computer Studies} 63(4):365--369.
+
+\bibitem[\protect\citeauthoryear{McIntyre}{1994}]{mcintyre_bach_1994}
+McIntyre, R.
+\newblock 1994.
+\newblock Bach in a box: the evolution of four part {Baroque} harmony using the
+  genetic algorithm.
+\newblock In {\em Proceedings of the {First} {IEEE} {Conference} on
+  {Evolutionary} {Computation}. {IEEE} {World} {Congress} on {Computational}
+  {Intelligence}},  852--857 vol.2.
+
+\bibitem[\protect\citeauthoryear{Meade \bgroup et al.\egroup
+  }{2019}]{meade_exploring_2019}
+Meade, N.; Barreyre, N.; Lowe, S.~C.; and Oore, S.
+\newblock 2019.
+\newblock Exploring conditioning for generative music systems with
+  human-interpretable controls.
+\newblock In {\em {ICCC}}.
+
+\bibitem[\protect\citeauthoryear{Pachet and
+  Roy}{2014}]{pachet_non-conformant_2014}
+Pachet, F., and Roy, P.
+\newblock 2014.
+\newblock Non-conformant harmonization: the real book in the style of take 6.
+\newblock In {\em {ICCC}}.
+
+\bibitem[\protect\citeauthoryear{Pease, Winterstein, and
+  Colton}{2001}]{pease_evaluating_2001}
+Pease, A.; Winterstein, D.; and Colton, S.
+\newblock 2001.
+\newblock Evaluating {Machine} {Creativity}.
+\newblock In {\em ICCBR'01 Workshop on Creative Systems}, ~9.
+
+\bibitem[\protect\citeauthoryear{Pérez}{2018}]{perez_computational_2018}
+Pérez, R. P.~y.
+\newblock 2018.
+\newblock The {Computational} {Creativity} {Continuum}.
+\newblock In {\em {ICCC}}.
+
+\bibitem[\protect\citeauthoryear{Uria \bgroup et al.\egroup
+  }{2016}]{uria_neural_2016}
+Uria, B.; Côté, M.-A.; Gregor, K.; Murray, I.; and Larochelle, H.
+\newblock 2016.
+\newblock Neural {Autoregressive} {Distribution} {Estimation}.
+\newblock {\em arXiv:1605.02226 [cs]}.
+\newblock arXiv: 1605.02226.
+
+\bibitem[\protect\citeauthoryear{Uria, Murray, and
+  Larochelle}{2014}]{uria_deep_2014}
+Uria, B.; Murray, I.; and Larochelle, H.
+\newblock 2014.
+\newblock A {Deep} and {Tractable} {Density} {Estimator}.
+\newblock {\em arXiv:1310.1757 [cs, stat]}.
+\newblock arXiv: 1310.1757.
+
+\bibitem[\protect\citeauthoryear{Ventura}{2016}]{ventura_mere_2016}
+Ventura, D.
+\newblock 2016.
+\newblock Mere {Generation}: {Essential} {Barometer} or {Dated} {Concept}?
+\newblock In {\em {ICCC}}, ~8.
+
+\bibitem[\protect\citeauthoryear{Ventura}{2017}]{ventura_how_2017}
+Ventura, D.
+\newblock 2017.
+\newblock How to {Build} a {CC} {System} {Paper} type: {System} {Description}
+  {Paper}.
+\newblock {\em In ICCC} ~8.
+
+\bibitem[\protect\citeauthoryear{Wiggins}{2006}]{wiggins_preliminary_2006}
+Wiggins, G.~A.
+\newblock 2006.
+\newblock A preliminary framework for description, analysis and comparison of
+  creative systems.
+\newblock {\em Knowledge-Based Systems} 19(7):449--458.
+
+\bibitem[\protect\citeauthoryear{Yao \bgroup et al.\egroup
+  }{2014}]{yao_equivalence_2014}
+Yao, L.; Ozair, S.; Cho, K.; and Bengio, Y.
+\newblock 2014.
+\newblock On the {Equivalence} {Between} {Deep} {NADE} and {Generative}
+  {Stochastic} {Networks}.
+\newblock {\em arXiv:1409.0585 [cs, stat]}.
+\newblock arXiv: 1409.0585.
+
+\end{thebibliography}

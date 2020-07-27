@@ -1,0 +1,35 @@
+---- Semana Lu 8 Jun - Do 14 Jun
+
+x1, Incorporar datos de la arquitectura de sistemas creativos y forma de colaboración en la lista inicial
+x2, Realizar una descripción de características similar pero en Review2 en los sistemas cocreativos
+x3, Escribir los sistemas en overleaf
+x4, Reestructurarlos dependiendo de su forma de colaboración
+x5, Reescribirlos en una perspectiva de la creatividad computacional
+
+-- Vie 26 Jun
+1x, escribir las primeras 4 de los mapas mentales
+2/, adjuntar de manera comentada las referencias del resto de metodologias propuestas
+3~, escribir las segundas 4 de los recopilados
+4, leer como se presentan las metodologias en la tesis de referencia
+6, Continuar con la escritura de los capitulos
+7, Realizar correcciones
+8, coninuar y concluir capitulos
+5, trabajar en ello y preparacion de presentacion de coloquio:
+ título - Una metodologia ,
+ objetivo - Desarrollar una metodologia que incorpore tal y tal,
+ revisión bibliográfica básica - referencias para dicha afirmación y objetivo,
+ descripción de resultados esperados - metricas, ealuaciones, medidas, que pretendan apoyar el progreso del desarrllo comparación y avance de sistemas
+ calendario de actividades:
+ 1 meses - revision de bibliográfia completa y definición de una primera iteración del marco de evaluación
+ 3 meses - evaluación de los compositores artificiales, ánalisis de resultados preliminares, realización de correcciones a la metodología y complementación de la bibliográfia por iteraciones
+ 1 mes - Análisis de resultados finales
+ 1 mes - Revisión final de formato y contenido para finalizar el documento escrito.
+
+-- Correo:
+1.- Explicar que hemos hecho y que llevamos
+2.- Explicar que vamos a hacer
+3.- Incluir link a la presentación propuesta para el coloquio
+4.- Preguntar sobre el proyecto de la materia de creatividad
+    Hay que incluir algo mas en el reporte y que lineamientos requiere la presentación de ser necesaria
+
+12 - 1:30pm -> preparar presentación, correo y enviarlo

@@ -1,0 +1,223 @@
+[1]C. Guckelsberger, C. Salge, y S. Colton, “Addressing the ‘Why?’ in Computational Creativity: A Non-Anthropocentric, Minimal Model of Intentional Creative Agency”, presentado en Proc. 8th Int. Conf. Computational Creativity, 2017, 2017, Consultado: may 02, 2020. [En línea]. Disponible en: http://ccg.doc.gold.ac.uk/wp-content/uploads/2017/05/iccc2017_guckelsberger.pdf.
+Answering the “why?” would allow for the attribution of intentional agency,
+and likely lead to a stronger perception of creativity. Enactive artificial intelligence, 
+a framework inspired by autopoietic enactive cognitive science, equips us with the necessary conditions
+for a value function to reflect a system’s own intrinsic goals. 
+
+We have shown via case-studies that existing CC systems,
+typically with a focus on human creativity, cannot provide
+a satisfactory answer to why they are being creative because
+they lack intrinsic goal-ownership. We have adopted the enactive AI framework for a non-anthropocentric account of
+intentional agency in minimal, embodied agents. Creativity,
+as commonly perceived, seems to be maximally removed
+from how simple organisms survive and cope within an everchanging environment. 
+By showing that constitutively autonomous and adaptive agents must necessarily perform 
+intrinsically valuable and novel actions, we have grounded two
+of the strongest factors in the attribution of creativity in the
+essence of the living.
+
+[2]N. Davis, “An Enactive Approach to Facilitate Interactive Machine Learning for Co-Creative Agents”, en Proceedings of the 2015 ACM SIGCHI Conference on Creativity and Cognition, Glasgow, United Kingdom, jun. 2015, pp. 345–346, doi: 10.1145/2757226.2764773.
+This paper introduced an enactive approach to interactive
+machine learning. We describe two co-creative agents
+developed with our enactive model of creativity. This
+model formalizes the ideas of participatory sense-making
+
+[3]M. Guzdial y M. Riedl, “An Interaction Framework for Studying Co-Creative AI”, arXiv:1903.09709 [cs], mar. 2019, Consultado: may 01, 2020. [En línea]. Disponible en: http://arxiv.org/abs/1903.09709.
+Note> "Creation of a new framework as the one intended in our thesis"
+
+In this paper we present a general framework for representing turn-based co-creative systems. Such
+a framework allows for direct comparisons between distinct systems, from which one can generate
+discussion, hypotheses, and potential generalizations on the impact of these differences
+
+[4]P. T. Ravikumar, K. McGee, y L. Wyse, “Back to the experiences: Empirically grounding the development of musical co-creative partners in co-experiences”, p. 7, 2018.
+When it comes to co-experiences, free improvising musicians place more importance to listening and responding to
+their co-performers over social interaction, physical movements, and musical skill
+
+These finding suggest the need to reframe research on cocreativity and creative partnerships in terms of subjective
+experience rather than specific musical, communicative, or
+physical attributes of the co-creative partner.
+
+The study of co-experiences, without physicality, enables
+a level of meaning making that is common across humans
+and computational systems. This allows us to address the
+problem of creative bias with computational systems. During the interviews, musicians identified improvisation pieces
+in which physicality was an optional component of the performance. In conditions where physicality does not play a
+part, co-experiences are felt only through actions of listening and responding. This opens up a possibility
+ of studying co-experiences in experimental configurations that enable the same level of meaning across human and computer
+co-creators. In such situations, it is possible to uncover biases with machine creativity through comparisons with human creativity.
+This allows us to address the problem of bias with machine co-creators.
+
+. A set of minimal conditions
+for the co-experiences were identified as good focal points
+that would allow us to study co-experiences in experimental
+configurations. This enables us to address certain important
+challenges that impeded the development of creative computational partnerships and opens avenues for further research
+in this domai
+
+[5]P. Karimi, K. Grace, M. L. Maher, y N. Davis, “Evaluating Creativity in Computational Co-Creative Systems”, arXiv:1807.09886 [cs], jul. 2018, Consultado: may 02, 2020. [En línea]. Disponible en: http://arxiv.org/abs/1807.09886.
+Note> "Creation of a new framework as the one intended in our thesis and some meta-analysis 
+characteristics for the development of evaluation frameworks"
+
+This paper provides a framework for evaluating creativity in
+computational co-creative systems. The framework provides
+a structure for comparing the evaluation of co-creative systems across specific examples and implementations, as well
+comparing to other types of creative systems, such as autonomous creative systems and creativity support tools. By
+asking questions such as who evaluates, when does evaluation occur, what is evaluated, and how evaluation is performed,
+ we can broaden the scope of evaluation studies and
+apply methods from one area of computational creativity to
+another area.
+
+Unlike fully autonomous creative systems and creativity
+support tools, the creative process used by co-creative systems is not the result of a single agent, 
+instead it is a collaboration. This means existing approaches to evaluating
+computational creativity or HCI approaches to evaluate creativity support are insufficient. This identifies a new focus
+for research in computational creativity to study how creativity can be evaluated in human/AI collaboration with the
+combination and intersection of usability and creativity metrics. Evaluative methods and metrics are a step towards selfaware 
+and intentional co-creative agents.
+
+[6]P. M. Bodily y D. Ventura, “Explainability: An Aesthetic for Aesthetics in Computational Creative Systems”, p. 8, 2018.
+As several in the field have asserted (and which we also assert), an autonomous aesthetic is a key component of creative systems.
+ This assertion naturally begs the question:
+What are the characteristics that a computational system
+might use for selecting an aesthetic?
+
+What makes a good aesthetic? As evidenced by the variety
+of aesthetics implemented (implicitly or explicity) in extant
+CC systems, many have pondered what good aesthetics for
+CC systems might be. Our purpose is rather to consider
+what all “good” aesthetics have in common.
+
+These two examples suffice to demonstrate that an explainable aesthetic can contribute to the perception of a sentient,
+ aesthetically-driven creative system. We await future
+work to provide corroborative empirical evidence.
+
+Relevant to the discussion of explaining aesthetics in a given
+(possibly natural) language, it has been argued that the
+concept of creativity, though human-conceived, should not
+remain human-centric (Guckelsberger, Salge, and Colton
+2017). While this may be true, it is also true that creativity
+does not happen in a vacuum, but emerges in the interaction
+between an agent’s “thoughts” and a sociocultural context
+(Csikszentmihalyi 1996; Bown 2015; Jordanous 2015). It
+may not be that creativity is human-centric, but until substantial non-human sociocultural contexts are presented, it
+seems reasonable to expect that creativity in computational
+systems depends on at least an interaction with human sociocultural contexts.
+
+We seem, to a large extent, to have focused thus far as a
+field on systems which (possibly by some arguably creative
+process) generate artefacts. We do so to the detriment of
+the field whose stated focus is on the greater umbrella of behaviors (Colton and Wiggins 2012). We may find benefit in
+increasingly promoting research toward systems which, independent of their generative abilities, are creative by virtue
+of their ability to interact with and internally react to their
+sociocultural context (see Figure 4).
+
+Systems with an ability to autonomously initiate, change,
+and explain an (domain-agnostic) aesthetic deriving from
+a sociocultural context would be a significant contribution
+to the field of CC, even without (domain-specific) generative capabilities.
+
+[7]L. H. Malinin, “How Radical Is Embodied Creativity? Implications of 4E Approaches for Creativity Research and Teaching”, Front. Psychol., vol. 10, 2019, doi: 10.3389/fpsyg.2019.02372.
+Creative thinking is an essential skill for the future workforce
+(Barbot et al., 2015; Jules and Sundberg, 2018) and crucial
+for solving wicked5
+societal problems, such as overpopulation,
+poverty, and climate change. However, creative process research
+has largely stalled (Dietrich, 2007; Fryer, 2012; Glaveanu ˘ ,
+2014b; Barbot et al., 2015) and has not been particularly
+useful for informing educational psychology or pedagogical
+practices (Plucker et al., 2004; Glaveanu ˘ , 2014b; Sawyer, 2018).
+The field of creativity research is in crisis because, Glaveanu ˘
+(2014a, p. 2) argues, “one of the most pervasive separations
+creativity researchers make is between creator (or his brain)
+and the social and material world.”
+
+ Finally, metaphorical
+creativity research could integrate a strong embodiment (RECS)
+perspective to examine “mental” processes commonly associated
+with creativity, such as imagination, incubation, and conceptual
+combination. Slepian and Ambady (2014) demonstrated how
+creation of novel embodied metaphors provides evidence of
+embodied simulation. Approaches such as theirs could lend new
+insights into, for example, the little understood phenomenon of
+creative incubation leading to insight.
+
+First, research in this area reveals that the common definition
+of creativity, as the ability to produce something novel and
+useful, does not adequately describe creativity-in-the-wild (i.e.,
+real-world creativity). Creativity is situated practice; it involves
+embodied experiences and is embedded in socio-material
+environments. Dynamical systems approaches also describe how
+creativity is enacted through person-environment interactions
+and distributed among technological-material artifacts and other
+people
+
+Finally, theoretical
+approaches — such as Baber’s (2019) concept of creativity as
+technological reasoning or Rietveld and Brouwers’s (2017) notion
+that it involves skilled intentionality toward optimal grip — begin
+to address the demand for a new theoretical framework that
+integrates the historically siloed 4Ps of creativity research.
+
+What, then, are next steps for embodied creativity research?
+First and foremost, a new definition of creativity is needed
+to describe creativity as situated practice, emerging through
+person-environment interactions (material/technological as well
+as socio-cultural). Second, new conceptual and methodological
+tools must be adopted, including developmental and dynamical
+systems approaches, to better understand person-environment
+relationships (for example, how and when technological artifacts
+are instrumental) throughout the creative process — as well as
+how these relationships evolve with acquired domain expertise.
+Third, a common theoretical framework, informed by RECS,
+would provide a starting point to integrate research in the 4P’s,
+including the often overlooked workplace or classroom physical
+environment (creative press) and the emerging neuroscience
+of creativity research stream (creative process). Dynamical
+systems approaches highlight the role of perception in creativity.
+Skilled perceptual abilities can be taught, as is a focus of
+pedagogical techniques in design programs. Yet, there is little
+understanding of how perceptual abilities lead to creative
+expertise. Architectural settings, such as learning spaces, shape
+
+sensorimotor experiences, which, in term, shape perceptions
+of affordances available to inhabitants. However, creative
+press research has prioritized socio-cultural over materialtechnological environments. 
+
+Developing creativity in
+educational (or workplace) settings is a complex endeavor —
+and one that has not benefitted enough from creativity research
+(Barbot et al., 2015; Sawyer, 2018). For creativity to become a
+learning competency, essential for the future workforce, research
+approaches must consider its multidimensionality to effectively
+inform pedagogical practices — and acknowledge the role of the
+body, artifacts, and the larger socio-material environment in the
+development of creative expertise.
+
+[8]M. Jacob, “Improvisational Artificial Intelligence for Embodied Co-creativity”, ago. 2019, Consultado: may 01, 2020. [En línea]. Disponible en: https://smartech.gatech.edu/handle/1853/62270.
+ Note>"Computational Models for Evaluating Creativity
+ With perspectives on product and process, a really brief overview of current evaluation frameworks"
+
+[9]A. Kantosalo y A. Jordanous, “Role-Based Perceptions of Computer Participants in Human-Computer Co-Creativity”, presentado en 7th Computational Creativity Symposium at AISB 2020, London, UK, feb. 2020, Consultado: may 01, 2020. [En línea]. Disponible en: https://sites.google.com/view/aisb2020cc/home.
+The existing role classifications that we have for human-computer
+co-creativity are theoretical, in the sense that they have not been
+experimentally verified. They are essentially hypothetical labels, assigned rather than analysed. 
+In future work we will evaluate the current role classifications as they are manifested in practice, which will
+help us to identify gaps and coverage of the existing classifications.
+
+In this paper, we outlined and categorised the space of co-creative
+possibilities covered by the current sets of roles in the literature.
+We looked for inspiration from reviewing how role classification
+schemes are used to understand and analyse creative collaboration
+between people, and we reflected on implications from this review.
+Role classifications in co-creativity have appeared over recent
+years and have increasingly afforded computational co-creativity participants with more creative agency 
+and more varied responsibilities.
+We seem to be moving towards a less limited set of views on what
+computational participants can do, though we are not yet at a point
+where computational participants are given the same agency as human participants.
+In introducing extra roles to support the perception of computers in a wider range of creative behaviours, our end goal actually
+is to reach a point that human-human collaborative creativity is at,
+i.e. where predefined generally applicable roles are no longer necessary at all. This seems somewhat contradictory; however we argue
+that roles have emerged as an important analytical tool to study the
+potential of computational partners in collaborative creativity. Roles
+can also act as prompts to identify and highlight underexplored possibilities: becoming stepping stones towards more creativity potential.

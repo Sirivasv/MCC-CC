@@ -1,0 +1,69 @@
+## 4ps, turing, ada
+https://33a70230-683b-4cd9-90d0-669984085743.filesusr.com/ugd/a38831_f0326825253f481da9d9539ff8d38749.pdf
+
+xx Pease, A., Winterstein, D., & Colton, S. (s/f). Evaluating Machine Creativity. 9.
+file:///C:/Users/sauli/Zotero/storage/P63GK2YF/Pease%20et%20al.%20-%20Evaluating%20Machine%20Creativity.pdf
+
+xx Ritchie, G. (2007). Some Empirical Criteria for Attributing Creativity to a Computer Program. Minds and Machines, 17(1), 67–99. https://doi.org/10.1007/s11023-007-9066-2
+file:///C:/Users/sauli/Zotero/storage/F4P99YYH/Ritchie%20-%202007%20-%20Some%20Empirical%20Criteria%20for%20Attributing%20Creativity.pdf
+
+xx Lamb, C., Brown, D. G., & Clarke, C. L. A. (2018). Evaluating Computational Creativity: An Interdisciplinary Tutorial. ACM Computing Surveys, 51(2), 28:1–28:34. https://doi.org/10.1145/3167476
+file:///C:/Users/sauli/Zotero/storage/RFBBVCFK/Lamb%20et%20al.%20-%202018%20-%20Evaluating%20Computational%20Creativity%20An%20Interdisci.pdf
+
+xx Jordanous, A. (2012). A Standardised Procedure for Evaluating Creative Systems: Computational Creativity Evaluation Based on What it is to be Creative. Cognitive Computation, 4(3), 246–279. https://doi.org/10.1007/s12559-012-9156-1
+https://33a70230-683b-4cd9-90d0-669984085743.filesusr.com/ugd/a38831_aa786b38c737480788f811a077758468.pdf
+
+xx Karimi, P., Grace, K., Maher, M. L., & Davis, N. (2018). Evaluating Creativity in Computational Co-Creative Systems. arXiv:1807.09886 [cs]. http://arxiv.org/abs/1807.09886
+file:///C:/Users/sauli/Zotero/storage/PMR3RFI9/Karimi%20et%20al.%20-%202018%20-%20Evaluating%20Creativity%20in%20Computational%20Co-Creative.pdf
+
+xx Kantosalo, A., Toivanen, J. M., & Toivonen, H. (2015). Interaction Evaluation for Human-Computer Co-creativity: A Case Study. 8.
+file:///C:/Users/sauli/Zotero/storage/FWS86YSV/Kantosalo%20et%20al.%20-%202015%20-%20Interaction%20Evaluation%20for%20Human-Computer%20Co-creat.pdf
+
+xx Kantosalo, A., & Riihiaho, S. (2019). Experience evaluations for human–computer co-creative processes – planning and conducting an evaluation in practice. Connection Science, 31(1), 60–81. https://doi.org/10.1080/09540091.2018.1432566
+file:///C:/Users/sauli/Zotero/storage/FHZIULH9/Kantosalo%20y%20Riihiaho%20-%202019%20-%20Experience%20evaluations%20for%20human%E2%80%93computer%20co-creat.pdf
+
+y - Kantosalo, A., & Jordanous, A. (2020, febrero 12). Role-Based Perceptions of Computer Participants in Human-Computer Co-Creativity. 7th Computational Creativity Symposium at AISB 2020, London, UK. https://sites.google.com/view/aisb2020cc/home
+file:///C:/Users/sauli/Zotero/storage/8UTDU4HX/Kantosalo%20y%20Jordanous%20-%202020%20-%20Role-Based%20Perceptions%20of%20Computer%20Participants%20in.pdf
+
+y Kalonaris, S., & Jordanous, A. (s/f). Computational Music Aesthetics: A survey and some thoughts. 15.
+file:///C:/Users/sauli/Zotero/storage/CT98L4M5/Kalonaris%20y%20Jordanous%20-%20Computational%20Music%20Aesthetics%20a%20survey%20and%20some%20.pdf
+
+x Gifford, T., Knotts, S., McCormack, J., Kalonaris, S., Yee-King, M., & d’Inverno, M. (2018). Computational systems for music improvisation. Digital Creativity, 29(1), 19–36. https://doi.org/10.1080/14626268.2018.1426613
+file:///C:/Users/sauli/Zotero/storage/T7FNQXDS/Gifford%20et%20al.%20-%202018%20-%20Computational%20systems%20for%20music%20improvisation.pdf
+
+x Bown, O. (s/f). Empirically Grounding the Evaluation of Creative Systems: Incorporating Interaction Design. 8.
+file:///C:/Users/sauli/Zotero/storage/IH2N66CJ/Bown%20-%20Empirically%20Grounding%20the%20Evaluation%20of%20Creative%20S.pdf
+
+x Scurto, H., & Chemla–Romeu-Santos, A. (2019, octubre). Machine Learning for Computer Music Multidisciplinary Research: A Practical Case Study. 14th International Symposium on Computer Music Multidisciplinary Research (CMMR’19). https://hal.archives-ouvertes.fr/hal-02408699
+file:///C:/Users/sauli/Zotero/storage/JP8N24FF/Scurto%20y%20Chemla%E2%80%93Romeu-Santos%20-%202019%20-%20Machine%20Learning%20for%20Computer%20Music%20Multidisciplin.pdf
+
+x Sturm, B. L., Ben-Tal, O., Monaghan, Ú., Collins, N., Herremans, D., Chew, E., Hadjeres, G., Deruty, E., & Pachet, F. (2019). Machine learning research that matters for music creation: A case study. Journal of New Music Research, 48(1), 36–55. https://doi.org/10.1080/09298215.2018.1515233
+file:///C:/Users/sauli/Zotero/storage/3BZT2EDV/Sturm%20et%20al.%20-%202019%20-%20Machine%20learning%20research%20that%20matters%20for%20music%20c.pdf
+
+x Jan, S. (s/f). The theory and analysis of computer-generated music: A case-study of Colossus. 24.
+file:///C:/Users/sauli/Zotero/storage/K672QNLS/Jan%20-%20The%20theory%20and%20analysis%20of%20computer-generated%20musi.pdf
+
+xx Guzdial, M., & Riedl, M. (2019). An Interaction Framework for Studying Co-Creative AI. arXiv:1903.09709 [cs]. http://arxiv.org/abs/1903.09709
+file:///C:/Users/sauli/Zotero/storage/KN3NFS4T/Guzdial%20y%20Riedl%20-%202019%20-%20An%20Interaction%20Framework%20for%20Studying%20Co-Creative%20.pdf
+
+xx Ravikumar, P. T., McGee, K., & Wyse, L. (2018). Back to the experiences: Empirically grounding the development of musical co-creative partners in co-experiences. 7.
+file:///C:/Users/sauli/Zotero/storage/9WFXDSB6/Ravikumar%20et%20al.%20-%20Back%20to%20the%20experiences%20Empirically%20grounding%20the.pdf
+
+y Bodily, P. M., & Ventura, D. (2018). Explainability: An Aesthetic for Aesthetics in Computational Creative Systems. 8.
+file:///C:/Users/sauli/Zotero/storage/GP7H5VDN/Bodily%20y%20Ventura%20-%20Explainability%20An%20Aesthetic%20for%20Aesthetics%20in%20Com.pdf
+
+y Davis, N., Hsiao, C.-P., Popova, Y., & Magerko, B. (2015). An Enactive Model of Creativity for Computational Collaboration and Co-creation. En N. Zagalo & P. Branco (Eds.), Creativity in the Digital Age (pp. 109–133). Springer. https://doi.org/10.1007/978-1-4471-6681-8_7
+https://33a70230-683b-4cd9-90d0-669984085743.filesusr.com/ugd/a38831_949b61a5eb354b5686bfb4aa3da2cf3b.pdf
+
+xx Jordanous, A. (s/f). Evaluating Evaluation: Assessing Progress in Computational Creativity Research. 6.
+
+xx Colton, S. (s/f). Creativity Versus the Perception of Creativity in Computational System. 7.
+
+xx S. Colton, A. Pease, y J. Charnley, “Computational Creativity Theory: The FACE and IDEA Descriptive Models”, p. 6.
+
+x3 W. Hsu y M. Sosnick, Evaluating Interactive Music Systems: An HCI Approach. .
+
+x4 D. Stowell, A. Robertson, N. Bryan-Kinns, y M. D. Plumbley, “Evaluation of live human–computer music-making: Quantitative and qualitative approaches”, International Journal of Human-Computer Studies, vol. 67, núm. 11, pp. 960–975, nov. 2009, doi: 10.1016/j.ijhcs.2009.05.007.
+
+y R. Mogensen, “Computational motivation for computational creativity in improvised music”, Consultado: jul. 14, 2020. [En línea]. Disponible en: https://www.academia.edu/34660988/Computational_motivation_for_computational_creativity_in_improvised_music.
+

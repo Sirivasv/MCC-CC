@@ -1,0 +1,324 @@
+[1]G. Hadjeres, F. Pachet, y F. Nielsen, “DeepBach: a Steerable Model for Bach Chorales Generation”, arXiv:1612.01010 [cs], jun. 2017, Consultado: abr. 21, 2020. [En línea]. Disponible en: http://arxiv.org/abs/1612.01010.
+... x
+    .Domain: Music, Chorale composition with user constraints if given
+    .Knowledge Base: Bach chorales in the music21 toolkit, it contains 188 chorales "BWV 250-438"
+    .Aesthetic: The aesthetic is derived from the dataset, and it is representative of harmonizing as similar to Bach as possible, it is implicit in how the Genotype is evaluated
+    .Genotype: "symbolic" data type encoding rythm and fermatas
+    .Conceptualization: Deep learning model
+    .Phenotype: Composition Sheet
+    .Genotype Eval> Max log likelihood in neighbouring notes
+    .Phenotype Eval> Subject Testing for bachlike measurements
+    .Generation> Pseudo Gibbs sampling
+    .Collaboration: Turnos explícitos (but if we consider melody composition and harmonization as separate tasks it can also behave as in "División de tareas")
+    -----x
+    Multitrack, Polyphonic
+    Dependency network - RNNs
+    beat as minimum
+    compositional features in real-time but to make compositions, not yet explored in realtime settings
+    no necesary just sequential generation, it can use several other types of sampling (gibbs)
+    python keras tensorflow
+    MIDI Melodico-rhythmic encoding using letters and dashed, i.e. tokens
+    dataset music21: a toolkit for computeraided musicology and symbolic music data. chroales
+    user  imposing positional constraints such as notes,
+    musecore
+    "symbolic" data type
+    opensource
+...
+
+[2]L.-C. Yang, S.-Y. Chou, y Y.-H. Yang, “MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation”, arXiv:1703.10847 [cs], jul. 2017, Consultado: abr. 21, 2020. [En línea]. Disponible en: http://arxiv.org/abs/1703.10847.
+... x
+    .Domain: Music, melody and multipart generation given prime notes or chord progressions to follow
+    .Knowledge Base:To this end, we crawled a collection of 1,022 MIDI tabs of pop music from TheoryTab, 4 which provides exactly two channels per tab, one for melody and the other for the underlying chord progression. With this dataset, we can implement at least two versions of MidiNets: one that learns from only the melody channel for fair comparison with MelodyRNN [33], which does not use chords, and the other that additionally uses chords to condition melody generation, to test the capacity of MidiNet After these preprocessing steps, we were left with 526 MIDI tabs (i.e. 4,208 bars). 5 For data augmentation, we circularly shifted the melodies and chords to any of the 12 keys in equal temperament, leading to a final dataset of 50,496 bars of melody and chord pairs for training.
+    .Aesthetic: The aesthetic is derived from the dataset, and it is representative of composing pleasing melodies similar as possible to the ones in the dataset
+    .Genotype: MIDI 
+    .Genotype Eval: MinMax log likelihood in GAN Architecture conserning Generator and Discriminator
+    .Phenotype Eval: Subject Testing for three metrics: how pleasing, how real, and how interesting.
+    .Generation: Three variants on constraining future generations of the generator in architecture
+    .Conceptualization: Deep learning model CNN GAN training
+    .Phenotype: Composition sheet
+    .Collaboration: Turnos explícitos (but if we consider melody composition and harmonization as separate tasks it can also behave as in "División de tareas")
+    -----x
+    Multitrack, Polyphonic
+    CNN GAN
+    beat as minimum
+    compositional features no realtime
+    sequential generation
+    python tensorflow
+    MIDI pianoroll
+    To this end, we crawled a collection of 1,022 MIDI tabs of pop music from TheoryTab, 4 which provides exactly two channels per tab, one for melody and the other for the underlying chord progression.
+    user  imposing positional constraints such as notes/melody, chords, other constraints for "creativity"
+    "symbolic" data type
+    opensource
+...
+
+[3]H.-W. Dong, W.-Y. Hsiao, L.-C. Yang, y Y.-H. Yang, “MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment”, arXiv:1709.06298 [cs, eess], nov. 2017, Consultado: abr. 21, 2020. [En línea]. Disponible en: http://arxiv.org/abs/1709.06298.
+... xx
+    Multitrack, Polyphonic
+    GAN architecture
+    minimum block is a bar not a beat
+    jamming, composer and hybrid approaches
+    sequential generation
+    python tensorflow
+    pianoroll track representation
+    Lakh Pianoroll Dataset
+    "symbolic" data type
+    opensource
+    -----
+    .Genotype Eval: MinMax log likelihood in GAN Architecture conserning Generator and Discriminator, also n several metrics that can be computed for both the real and the generated data
+    .Phenotype Eval: Subject Testing for 1) have pleasant harmony, 2) have unified rhythm, 3) have clear musical structure, 4) are coherent, and 5) the overall rating
+    .Generation: variants on constraining future generations of the generator in architecture
+    .Domain: Music, Polyphonic multitrack composing and accompainment to a user track
+    .Knowledge Base:  45,129 MIDIs from  Lakh Pianoroll Dataset (LPD matched to entries in the Million Song Dataset (MSD
+    .Aesthetic: The aesthetic is derived from the dataset, and it is representative of composing pleasing melodies similar as possible to the ones in the dataset, it is implicit in how the Genotype is evaluated given certain specific objective metrics 
+    .Genotype: Pianoroll
+    .Conceptualization: Deep learning model GAN
+    .Phenotype: *PianoRoll, Multitrack Polyphonic song
+    .Collaboration: División de tareas
+... 
+
+[4]H.-M. Liu y Y.-H. Yang, “Lead Sheet Generation and Arrangement by Conditional Generative Adversarial Network”, arXiv:1807.11161 [cs, eess], jul. 2018, Consultado: abr. 21, 2020. [En línea]. Disponible en: http://arxiv.org/abs/1807.11161.
+... xx
+    Multitrack, Polyphonic
+    GAN architecture
+    minimum block is a beat
+    composer no realtime approache
+    sequential/full generation
+    python tensorflow
+    pianoroll chroma and chord roll
+    Lakh Pianoroll Dataset, TheoryTab and own cleansed dataset
+    "symbolic" data type
+    opensource
+    -----
+    Genotype Eval> MinMax log likelihood in GAN Architecture conserning Generator and Discriminator, also n several metrics that can 
+    be computed for both the real and the generated data
+    Phenotype Eval> Subject Testing for harmonicity, rhythmicity and overall feeling,
+    Generation>variants on constraining future generations of the generator in architecture
+    -----
+    .Domain: Music, Polyphonic multitrack composing and accompainment to a user track (the user track is a lead sheet, no midi, etc.)
+    .Knowledge Base:  Lakh Pianoroll Dataset, TheoryTab and own cleansed dataset
+    .Aesthetic: The aesthetic is derived from the dataset, and it is representative of composing pleasing melodies similar as possible to the ones in the dataset, it is implicit in how the Genotype is evaluated given certain specific objective metrics  
+    .Genotype: Pianorolls
+    .Conceptualization: Deep learning model GAN
+    .Phenotype: *PianoRoll, REndered Multitrack Polyphonic song
+    .Collaboration: División de tareas
+...
+
+[5]D. D. Johnson, R. M. Keller, y N. Weintraut, “Learning to Create Jazz Melodies Using a Product of Experts”, p. 8. [En línea]. Disponible en: https://computationalcreativity.net/iccc2017/ICCC_17_accepted_submissions/ICCC-17_paper_62.pdf
+... x
+    .Domain: Music, Jazz melody generation and improvisation over chord progressions
+    .Knowledge Base:  own public jazz corpus in leadsheet format for improvisor
+    .Aesthetic: The aesthetic is derived from the dataset, and it is representative of composing pleasing melodies similar as possible to the ones in the dataset 
+    .Genotype: files used in improvisor representatives of a leadsheet
+    .Genotype Eval: log likelihood in LSTM Architecture, and mixture of probabilities using product of experts
+    .Phenotype Eval: Subjectively evaluated by an experienced jazz player (co-author Keller), the improvised solos exhibited occasional shortcomings, 
+    .Generation: After our model is fully trained, we can use it to create new melodies from the learned probability distribution. At each time step, starting from the beginning of the piece, we compute the probability distribution output by our model. We then choose the next note to play proportionally to the probability assigned to that note by our model. This note is then fed back into the model as the input for the next time step, and a probability distribution for the next time step is computed. This process repeats until we have created a full melody segment.
+    .Conceptualization: Deep learning model LSTM
+    .Phenotype: Rendered Jazz solo
+    .Collaboration: Turnos explícitos (Iniciativa Mixta)
+    ------x
+    Single track Melodies
+    2 subnetworks contour and chord arrangements
+    LSTM architecture
+    beat as minimum
+    jamming
+    sequential
+    java improvisor
+    improvisor representation for generation
+    encoding of pitches as "notes"
+    own public jazz corpus 
+    "symbolic" data type
+    opensource
+... 
+
+[6]T. H. Hao, “ChordAL: A Chord-Based Approach for Music Generation using Bi-LSTMs”, p. 2. [En línea]. Disponible en: http://www.computationalcreativity.net/iccc2019/assets/creative-submissions/iccc19-tan-chordal.pdf
+... xx
+    “translating” chord progressions into fluent, harmonic melodies.
+    Single track Melodies
+    Bi-LSTM
+    beat as minimum
+    jamming
+    sequential
+    python tensorflow
+    pianorolln 
+    pitches encoded
+    • Chord Generator: First, a chord progression is generated from scratch given a few chords as starting seed.
+    • Chord-to-Note Generator: Next, the sequence of chords
+    is fed into the Chord-to-Note Generator, that generates the
+    melody line based on the given chords.
+    • Music Styler: Finally, both the generated chord and
+    melody are fed into the Music Styler component for post
+
+    The following parallel chord-to-note datasets are used:
+    • Nottingham dataset: We use the cleaned version preprocessed by Jukedeck, with separated chord and melody
+    parts for each piece.
+    • McGill-Billboard Chord Annotations: It contains chord
+    annotations for around 1000 Billboard chart songs.
+    • CSV leadsheet database: A leadsheet database that contains around 2200 Western music pieces across different
+    genres including rock, pop, jazz, etc.
+    All entries are indexed into a chord database and a melody
+    database. We use the chord database to train the Chord Generator, and both databases to train the Chord-to-Note Generator. Each entry is transposed to all 12 different pitches in
+    the octave for normalization
+    "symbolic" data type
+    opensource
+    -----
+    Genotype Eval>embedding layer. The embeddings are then fedinto a stacked Bi-LSTM , 
+    and also This shows that our embedding layer is capable to learn the underlying structure of music,, and repetitive features
+    Phenotype Eval> user subjective respondents to rate its performance on a 5-point Likert scale based on harmony, rhythm and structure.
+    Generation>Dropout layers of probability 0.2 are added after each Bi-LSTM layer. A tanh activation is added after the first dropout layer.
+    A time-distributed dense layer is added for the output, with a softmax activation function for multi-class classification 
+    to predict the output note. 
+    -----
+    .Domain: translating chord progressions into fluent, harmonic melodies.
+    .Knowledge Base:  The following parallel chord-to-note datasets are used: • Nottingham dataset: We use the cleaned version preprocessed by Jukedeck, with separated chord and melody parts for each piece. • McGill-Billboard Chord Annotations: It contains chord annotations for around 1000 Billboard chart songs. • CSV leadsheet database: A leadsheet database that contains around 2200 Western music pieces across different genres including rock, pop, jazz, etc. All entries are indexed into a chord database and a melody database. We use the chord database to train the Chord Generator, and both databases to train the Chord-to-Note Generator. Each entry is transposed to all 12 different pitches in the octave for normalization. 
+    .Aesthetic: The aesthetic is derived from the dataset, and it is representative of composing pleasing melodies similar as possible to the ones in the dataset 
+    .Genotype: files used in improvisor representatives of a leadsheet
+    .Conceptualization: Deep learning model Bi-LSTM
+    .Phenotype: Rendered Melodies
+    .Collaboration: Division de tareas
+...
+
+[7]G. Hadjeres y F. Nielsen, “Anticipation-RNN: enforcing unary constraints in sequence generation, with application to interactive music generation”, Neural Comput & Applic, vol. 32, núm. 4, pp. 995–1005, feb. 2020, doi: 10.1007/s00521-018-3868-4. [En línea]. Disponible en: https://link.springer.com/article/10.1007/s00521-018-3868-4
+...xx
+    Single track melodies
+    attention RNN almost like bi-LSTM
+    beat as minimum
+    compositional features in real-time but to make compositions, not yet explored in realtime settings
+    no necesary just sequential generation, it can use several other types of sampling
+    python pytorch
+    Melodico-rhythmic encoding using letters and dashed, i.e. tokens
+    Unary constraints given by the user such as:
+    - C1
+    : the beginning and the ending of an existing chorale
+    melody (first five bars of the chorale melody ‘‘Wer nur
+    den lieben Gott la¨ßt walten’’ with two ablated bars),
+    – C2
+    : the beginning and the ending of the same chorale
+    melody, but where the ending has been transposed to a
+    distant key (from G minor to C# minor),
+    – C3
+    : constraints forcing the model to make ‘‘big’’ leaps
+    (chorale melodies tend to be composed of conjunct
+    melodic motions),
+    – C4
+    : a chromatic ascending scale,
+    – C5
+    : random notes every eighth note,
+    dataset music21: a toolkit for computeraided musicology and symbolic music data.
+    musecore
+    "symbolic" data type
+    opensource
+    no secuencial
+    -----
+    Genotype Eval>We used a two-layer stacked LSTM
+    The network is trained to minimize the categorical cross-entropy between the true token at position 40 and its
+    prediction. For each training sequence, we sample the binary masks m(s) of (9) by uniformly sampling a masking ratio p 
+    We perform stochastic gradient descent using the Adam algorithm
+    Phenotype Eval> conclusion is that our model is able to correctly
+    enforce all constraints for sets of constraints that are
+    plausible with respect to the training datase, AND EMPIRICAL ->Nonetheless, the proposed model is able to generate a convincing
+    Bach-like chorale melody.
+    Generation>Constrained sampling. 
+    -----
+    .Domain: Music, melody generation as in soprano voice in bach chroales
+    .Knowledge Base:  soprano parts from all 402 chorales that are in 4/4 
+    .Aesthetic: The aesthetic is derived from the dataset, and it is representative of composing melodies similar as possible to the ones in the dataset in this case soprano parts in bach harmonizations
+    .Genotype:  melodico-rhythmic encoding
+    .Conceptualization: Deep learning model RNN
+    .Phenotype: Rendered Melodies
+    .Collaboration: Division de tareas [define contraints, complete melody]
+...
+
+[8]A. Pati, A. Lerch, y G. Hadjeres, “Learning to Traverse Latent Spaces for Musical Score Inpainting”, arXiv:1907.01164 [cs, eess, stat], jul. 2019, Consultado: abr. 21, 2020. [En línea]. Disponible en: http://arxiv.org/abs/1907.01164.
+...x
+    .Domain: Music, melody inpainting considering past and future  contexts
+    .Knowledge Base: monophonic folk melodies in the Scottish and Irish style taken from the Session website
+    .Aesthetic: The aesthetic is derived from the dataset, and it is representative of composing melodies similar as possible to the ones in the dataset
+    .Genotype:  melodico-rhythmic encoding
+    .Genotype Eval: NLL and probability dists on Latent RNN and VAE networks  and novel stochastic eval, 
+    .Phenotype Eval: Participants were presented with pairs of melodic excerpts and asked to select the one in which they thought the inpainted measures fit better within the surrounding context. also used aditional analysis from the data
+    .Generation: Initialize the hidden state of a third RNN, referred to as the Generation-RNN, which is unrolled N times. The outputs of the Generation-RNN are passed through a linear stato obtain ni latent vectors corresponding to the inpaintedmeasureThat due common sampling from vae and latent architectures 
+    .Conceptualization: Deep learning model RNN
+    .Phenotype: Rendered Melodies
+    .Collaboration: Division de tareas [define contraints (initial and ending contexts) , complete melody]
+    ----------x
+    monophonic but could be extended to Polyphonic
+    Measure VAE Latent RNN
+    minimum block is a beat
+    composer with possible realtime cappabilites
+    inpainting sampling VAE SAMPLING? no secuencial
+    python pytorch
+    MIDI Melodico-rhythmic encoding using letters and dashed, i.e. tokens
+    monophonic folk melodies in the Scottish and Irish style taken from the Session website
+    "symbolic" data type
+    opensource
+... 
+
+[9]C. Donahue, H. H. Mao, Y. E. Li, G. W. Cottrell, y J. McAuley, “LakhNES: Improving multi-instrumental music generation with cross-domain pre-training”, arXiv:1907.04868 [cs, eess, stat], jul. 2019, Consultado: abr. 21, 2020. [En línea]. Disponible en: http://arxiv.org/abs/1907.04868.
+... x
+    
+    .Domain: Music, compose a continuation of user defined parts in nes videogames style
+    .Knowledge Base: Lakh Pianoroll Dataset NES MSDB
+    .Aesthetic: The aesthetic is derived from the dataset, and it is representative of composing melodies similar as possible to the ones in the dataset
+    .Genotype:  event-based representation (631 event types) of NES-MDB
+    .Genotype Eval: We report the perplexity (PPL) of each model on the test set in Table 2. Perplexity is calculated by first averaging the negative log-likelihood of each model across the test data, then exponentiating the average.
+    .Phenotype Eval: user subjective respondents Turing test This study seeks to determine the ability of humans to distinguish between real (human-composed) and fake (computer-generated) chiptunes in a “Turing test” setting. In addition to our Turing test, we also conduct a preference-based user study, given that human-ness is not necessarily a predictor of general preference. We present human judges with pairs of examples from two different methods, and ask them which of the two they “prefer”.
+    .Generation: Own probability distribution factorization. This factorization is convenient because it allows for a simple left-to-right algorithm for generating music: sampling from the distribution estimated by the model at each
+    .Conceptualization: Deep learning model Transformer
+    .Phenotype: Rendered Tracks
+    .Collaboration: Turnos Explícitos
+    -------------x
+    Multitrack, Polyphonic
+    Transformer architecture for multiple 
+    minimum block is a beat
+    composer no realtime approach
+    sequential/full generation
+    python pytorch
+    midi pianoroll
+    Lakh Pianoroll Dataset NES MSDB
+    "symbolic" data type
+    opensource
+    ----------------
+    The Transformer [27] is an attention-based neural network architecture 
+    Genotype Eval>attention based nerural network underlying training procedures, with own probability joint
+    description 
+    To model the event sequences outlined in the last section,
+    we adopt a language modeling factorization. We factorize
+    the joint probability of a musical sequence consisting of N
+    events (E1, . . . , EN ) into a product of conditionals:
+    P(E1) · P(E2 | E1) · . . . · P(EN | E1, . . . , EN−1). (1)
+    This factorization is convenient because it allows for a
+    simple left-to-right algorithm for generating music: sampling from the distribution estimated by the model at each
+    timestep (conditioned on previous outputs). The goal of
+    our optimization procedure is to find a model configuration which maximizes the likelihood of the real event sequences. 
+    ,
+    * Just maybe here also the PPL 
+    We report the perplexity (PPL) of each model on the test
+    set in Table 2. Perplexity is calculated by first averaging
+    the negative log-likelihood of each model across the test
+    data, then exponentiating the average,
+...
+
+[10]C.-Z. A. Huang et al., “The Bach Doodle: Approachable music composition with machine learning at scale”, arXiv:1907.06637 [cs, eess, stat], jul. 2019, Consultado: abr. 21, 2020. [En línea]. Disponible en: http://arxiv.org/abs/1907.06637.
+... x
+    .Domain: The system works in the domain of music, it provides 4-part harmonization to a given melody or creates its own composition if no user constraint is given.
+    .Knowledge Base:Training and test data are derived from chorale harmonizations by Johann Sebastian Bach. There are 382 chorales with a train/test/valid split (229/77/76).
+    .Aesthetic:The aesthetic is derived from the dataset, and it is representative of harmonizing as similar to Bach as possible.
+    .Genotype: Chorales in MIDI format
+    .Genotype Eval: To evaluate a genotype the Maximum log-likelihood is used, that is evaluate how likely the generated genotype could come from the dataset. In a more detailed way what is modeled in an harmonization is the joint probability of a certain composition given some constraints and during conceptualization the parameters for such probability distributions are estimated
+    .Phenotype Eval: participants were asked to rate on a Likert scale which of the two random samples they perceive as more Bach-like
+    .Generation: Having estimated the parameters for the probability distributions in the conceptualization step now we can sample those distributions in order to get a piano roll with the most probable composition that resembles the ones in the dataset. For such purpose a blocked Gibbs sampling method
+    .Conceptualization: As mentioned before, the goal is to estimate the parameters of Categorical Probability Distributions for the dimensions in the piano roll representation. This is accomplished using a Convolutional Neural Network where for each layer the parameters are estimated within the convolutional range of measures in the training dataset transcriptions
+    .Phenotype: Rendered harmonizations
+    .Collaboration: División de tareas [melody generation in soprano, harmonization]
+    ------x
+    Multitrack, Polyphonic
+    Convolutional Neural Network, orderless NADE cells
+    minimum block is a beat
+    composer no realtime approach
+    nonsequential sampling 
+    python tensorflow
+    pianoroll
+    Bach Chorales
+    "symbolic" data type
+    opensource
+...
