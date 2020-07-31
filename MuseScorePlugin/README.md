@@ -10,3 +10,4 @@ Those steps are required in the server machine, the client just requires MuseSco
 - Run flask_server.py in the server (can be the local machine).
 - Put coconet.qml in MuseScore's Plugin Directory and load it from MuseScore.
 - Input the server address and push the "Harmonize" button after selecting the desired melody to harmonize.
+[logo]: https://github.com/Sirivasv/MCC-CC/raw/master/MuseScorePlugin/coconetnotsoloselect.png "coconetplugin"
